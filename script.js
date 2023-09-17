@@ -14,11 +14,12 @@ m <= 3 m >0
   let str = "";
   // ||||||||||||||
   alert(n + str);
-/* if n <= 0  You win*/
+  /* if n <= 0  You win*/
 
-alert("My turn!");
-let random = Math.floor(Math.random() * n + 1);
-// забрати random сірників
+  alert("My turn!");
+  let random = Math.floor(Math.random() * n + 1);
+  /* забрати random сірників
+ if n <= 0  I win*/
 }
 
 alert("!!!");
